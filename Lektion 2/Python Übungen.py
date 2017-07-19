@@ -10,20 +10,28 @@ Alter = 2017 - Jahr
 ##  print ("Du hattest schon Geburtstag! Du bist", Alter, "Jahre alt!")  
 ##elif Monat > 7:
 ##    print ("Du wirst dieses Jahr noch", Alter, "Jahre Alt!")
-##elif Monat == 7 and Tag < 18:
+##elif Monat == 7 and Tag < 19:
 ##    print ("Du hattest diesen Monat Geburtstag und wurdest", Alter, "Jahre Alt!")
-##elif Monat ==7 and Tag > 18:
+##elif Monat ==7 and Tag > 19:
 ##    print ("Du wirst diesen Monat noch Geburtstag habe und wirst dann", Alter, "Jahre Alt!")
-##elif Tag== 18 and Monat == 7:
+##elif Tag== 19 and Monat == 7:
 ##    print("Alles Gute zum Geburtstag :D ! Du wurdest ", Alter ," Jahre alt!")
     
 if Monat < 7:
     print("Du hattest schon Geburtstag! Du bist", Alter, "Jahre alt!")
 
+
 elif Monat == 7:
 
-if Tag < 18:
-    print("Du hattest schon Geburtstag! Du bist", Alter, "Jahre alt!")
-    elif Tag == 18:
+    if Tag < 19:
+        print("Du hattest schon Geburtstag! Du bist", Alter, "Jahre alt!")
+
+    elif Tag == 19:
         print("Alles Gute zum Geburtstag :D ! Du wurdest ", Alter ," Jahre alt!")
-    elif
+
+    elif Tag > 19:
+        print("Du wirst diesen Monat noch Geburtstag haben und wirst dann", Alter,"Jahre alt!")
+
+
+elif Monat > 7:
+    print ("Du wirst dieses Jahr noch Geburtstag haben und wirst dann", Alter,"Jahre Alt!")
